@@ -1,19 +1,47 @@
 <html lang="ru">
 <head>
     <title>Boilerplate</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 <body>
-<include>_header.html</include>
-<div class="grid-row">
-    <div class="grid-col--5">
-        <div class="cat">
-            <img src="assets/img/cat.jpg" width="100" alt="">
-            <div class="cat__photo"></div>
-            <div class="cat__title">Cat</div>
+
+    <header>
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>Premium<span>Drive</span></h1>
+            </div>
+
+            <nav>
+                <a href=""><li>Samochody</li></a>
+                <a href=""><li>Eventy</li></a>
+                <a href=""><li>Wynajem</li></a>
+                <a href=""><li>Kontakt</li></a>
+            </nav>
         </div>
+    </header>
+
+    <div class="wrap">
+        <div id="arrow-left" class="arrow"></div>
+        <div id="slider">
+            <div class="slide slide1">
+                <div class="slide-content">
+                    <span>Image One</span>
+                </div>
+            </div>
+            <div class="slide slide2">
+                <div class="slide-content">
+                    <span>Image Two</span>
+                </div>
+            </div>
+            <div class="slide slide3">
+                <div class="slide-content">
+                    <span>Image three</span>
+                </div>
+            </div>
+        </div>
+        <div id="arrow-right" class="arrow"></div>
     </div>
-</div>
-<a href="products.html">products.html</a>
-<include>_footer.html</include>
+
+
 </body>
 </html>

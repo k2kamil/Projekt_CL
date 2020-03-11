@@ -37,7 +37,6 @@ function slideRight () {
     current++;
 }
 
-
 // Left arrow click
 arrowLeft.addEventListener('click', function () {
     if(current === 0) {
@@ -57,6 +56,4 @@ arrowRight.addEventListener('click', function () {
 });
 
 startSlide();
-
-//Hidden images
 

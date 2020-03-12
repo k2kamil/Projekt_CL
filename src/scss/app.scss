@@ -1,4 +1,4 @@
-@import "samochody";
+@import "./samochody.scss";
 
 * {
   margin: 0;
@@ -16,7 +16,7 @@ header {
 }
 
 .inner-header {
-  width: 900px;
+  width: 1000px;
   height: 100%;
   display: block;
   margin: 0 auto;
